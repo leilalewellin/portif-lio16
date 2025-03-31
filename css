@@ -1,0 +1,240 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding-top: 50px;
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 50px;
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
+header p.lead {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+header .badge {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+/* Estilos dos badges de habilidades */
+header .badge {
+    margin-right: 10px;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+}
+
+/* Estilos do Main (Projetos) */
+main {
+    margin-top: 50px;
+}
+
+main h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+/* Cartões de projetos */
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 0.5rem;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.card-body .btn-link {
+    font-size: 1.1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-body .btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do botão "Veja o projeto" */
+.card-body .btn-link {
+    font-size: 1.1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-body .btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Importando a fonte */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Definição de variáveis para cores */
+:root {
+    --cor-principal: #6E859F;    /* Cor principal */
+    --cor-secundaria: #284260;   /* Cor secundária */
+    --cor-destaque: #C92BFC;     /* Cor de destaque */
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: #f8f9fa; /* Adicionando um fundo claro para o corpo */
+}
+
+/* Cabeçalhos */
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+/* Texto adicional */
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+/* Links e hover */
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+/* Hover do link */
+a:hover {
+    color: var(--cor-destaque);
+}
+
+/* Cartões de projetos */
+.card {
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Títulos nos cartões */
+.card-title {
+    color: var(--cor-secundaria);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* Texto nos cartões */
+.card-text {
+    color: var(--cor-principal);
+    font-size: 1rem;
+}
+
+/* Botões */
+.btn-link {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .card-body .btn-link {
+        font-size: 1rem;
+    }
+}
+
+/* Estilo para os links de projetos */
+.card-body a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    text-decoration: underline;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    background-color: var(--cor-secundaria);
+    color: white;
+    border-bottom: 2px solid var(--cor-destaque);
+}
+
+.modal-body {
+    font-size: 1rem;
+    color: var(--cor-principal);
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+}
+
+.modal-footer a {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.modal-footer a:hover {
+    color: var(--cor-destaque);
+}

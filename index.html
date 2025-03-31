@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+    <style>
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container text-center">
+        <!-- Foto de perfil atualizada -->
+        <img src="https://preview.redd.it/klein-moretti-the-fool-from-lord-of-the-mysteries-v0-2rlpcarx6nlc1.jpg?width=640&crop=smart&auto=webp&s=b88392b13e424bf7facc4a1e2ad8afefbe90812b" alt="Avatar de Perfil" class="profile-img">
+        <p class="lead">Eu sou Katherine</p> <!-- Alterado aqui -->
+        <p>Sou estudante do 2º ano do Ensino Médio. Aprendo o básico de acordo com as lições da Alura.</p>
+    </header>
+
+    <main class="container mt-5">
+        <!-- Habilidades Desenvolvidas -->
+        <h2>Minhas Habilidades Desenvolvidas</h2>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">Figma</p>
+            <p class="badge bg-secondary">p5.js</p>
+        </div>
+
+        <!-- Projetos -->
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://ih1.redbubble.net/image.4053581522.4386/raf,360x360,075,t,fafafa:ca443f4786.jpg" class="card-img-top" alt="Imagem do Projeto 1"> <!-- Nova imagem -->
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 1: Figma Design</h5>
+                        <p class="card-text">Este projeto é uma página desenhada no Figma, que mostra um design interativo e responsivo para um website de portfólio.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://e0.pxfuel.com/wallpapers/353/541/desktop-wallpaper-klein-moretti-lord-of-the-mysteries-drawn-lord-of-mysteries.jpg" class="card-img-top" alt="Imagem do Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 2: GitHub Repository</h5>
+                        <p class="card-text">Este projeto é um repositório no GitHub onde compartilho o código fonte de alguns dos meus projetos anteriores e contribuições.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/bc/5b/45/bc5b45660cddcb1f752cb3ef4f1f7823.jpg" class="card-img-top" alt="Imagem do Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3: p5.js</h5>
+                        <p class="card-text">Este projeto é focado no desenvolvimento de animações utilizando a biblioteca p5.js, uma ferramenta poderosa para criar gráficos e animações interativas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto 1: Figma Design</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto apresenta um design de interface desenvolvido no Figma, mostrando as práticas de UI/UX aplicadas em sites de portfólio.</p>
+                    <img src="https://cdn.prod.website-files.com/59e16042ec229e00016d3a66/64309e803065d50a0999485d_Figma-rebrand-assets_Blog-listing.webp" class="img-fluid w-100" alt="Imagem do Figma Design">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.figma.com/proto/2h50SDNa1UI2soinmH75wk/Untitled?node-id=8-3&p=f&t=xVhkkn9chaw6BA4l-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A18" target="_blank">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto 2: GitHub Repository</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este repositório contém todos os meus projetos desenvolvidos com códigos de programação, onde você pode aprender mais sobre como desenvolvo sistemas e sites.</p>
+                    <img src="https://e0.pxfuel.com/wallpapers/353/541/desktop-wallpaper-klein-moretti-lord-of-the-mysteries-drawn-lord-of-mysteries.jpg" class="img-fluid w-100" alt="Imagem do GitHub Repository">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/leilalewellin" target="_blank">Ver repositório no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto 3: p5.js</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é focado no desenvolvimento de animações utilizando a biblioteca p5.js, uma ferramenta poderosa para criar gráficos e animações interativas.</p>
+                    <img src="https://i.pinimg.com/736x/bc/5b/45/bc5b45660cddcb1f752cb3ef4f1f7823.jpg" class="img-fluid w-100" alt="Imagem do p5.js Projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/lewellin/sketches/v4MCMt7h4" target="_blank">Ver projeto no p5.js</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Yui-Sumire" target="_blank">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Katherine</p> <!-- Alterado aqui -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
